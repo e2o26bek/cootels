@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--mainFamily: 'Inter';
+	--headingFamily: 'Montserrat';
+	--headingCol: #192252;
+	--textCol: #848fac;
+	--headingWeight: 600;
+	--btnBg: #0e1734;
+}
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+.btn {
+	background-color: var(--btnBg);
+	padding: 16px 32px;
+	font-weight: 500;
+	font-family: var(--mainFamily);
+	color: #fff;
+	font-size: 16px;
+}
+.container {
+	width: 1270px;
+	margin: 0 auto;
+	padding: 0 5px;
+}
