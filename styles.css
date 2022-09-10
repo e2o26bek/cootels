@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 :root {
 	--mainFamily: 'Inter';
 	--headingFamily: 'Montserrat';
@@ -11,13 +12,16 @@
 	--headingWeight: 600;
 	--btnBg: #0e1734;
 }
+
 body {
 	font-family: 'Montserrat', Arial, sans-serif;
 }
+
 .flex {
 	display: flex;
 	align-items: center;
 }
+
 .btn {
 	background-color: var(--btnBg);
 	padding: 16px 32px;
@@ -26,8 +30,32 @@ body {
 	color: #fff;
 	font-size: 16px;
 }
+
 .container {
 	width: 1270px;
 	margin: 0 auto;
 	padding: 0 5px;
 }
+
+
+.accordions__section {
+	justify-content: space-between;
+	width: 100%;
+	height: 596px;
+	background-color: red;
+	padding: 80px;
+}
+
+.accordion__part {
+	max-width: 588px;
+	width: 100%;
+	height: 100%;
+	background-color: beige;
+}
+
+.accordion__part1 {
+	max-width: 407px;
+	width: 100%;
+}
+
+.accordion__part--h3-text {}
